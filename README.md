@@ -21,18 +21,15 @@ Presets:
 Airlite configuration:
 - airlite-config: Use Airlite Configuration Manager to load the recommended presets into your D&R Airlite mixer.
 
-ProppFrexx output/input channels (mixer input/output streams):
-- proppfrexx.mixer: Store in %APPDATA%\Radio42\ProppFrexx ONAIR\4.0 then activate using ProppFrexx > Settings > Input/Output.
-
-ProppFrexx routing (define mixers channels for all ProppFrexx player types including DJ players, PFL-player and cartwalls):
-- Todo: ProppFrexx > Settings > Input/Output.
-- Todo: Could this be used for alternative routing when using non-stop/auto play mode?
-
-ProppFrexx events (define events like starting/stopping tracks or carts using Airlite faders and Control buttons):
-- proppfrexx.events: Import into ProppFrexx using Settings > Events/commands.
-
-ProppFrexx GPIOClient (map Airlite Events like state changes per channel/module/button to ProppFrexx control comands):
-- Default.drl: Store in %APPDATA%\Radio42\ProppFrexx GPIOClient\4.0 then activate using ProppFrexx GPIOClient.
-
-ProppFrexx workspace:
-- Todo: ProppFrexx Workspace/view.
+ProppFrexx configuration: 
+- **ProppFrexx output/input channels** (mixer input/output streams):
+  - proppfrexx.mixer: Store in %APPDATA%\Radio42\ProppFrexx ONAIR\4.0 then activate using ProppFrexx > Settings > Input/Output.
+- **ProppFrexx routing** (define mixers channels for all ProppFrexx player types including DJ players, PFL-player and cartwalls):
+  - Todo: ProppFrexx > Settings > Input/Output.
+  - Todo: Could this be used for alternative routing when using non-stop/auto play mode?
+- **ProppFrexx events** (define events like starting/stopping tracks or carts using Airlite faders and Control buttons):
+  - proppfrexx.events: Import into ProppFrexx using Settings > Events/commands.
+- **ProppFrexx GPIOClient** (map Airlite Events like state changes per channel/module/button to ProppFrexx control comands):
+  - Default.drl: Store in %APPDATA%\Radio42\ProppFrexx GPIOClient\4.0 then activate using ProppFrexx GPIOClient.
+- **ProppFrexx workspace**:
+  - Todo: ProppFrexx Workspace/view.
