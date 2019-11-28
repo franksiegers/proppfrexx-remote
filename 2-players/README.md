@@ -34,9 +34,7 @@ ProppFrexx will be configured with the following players and routing:
   - Import proppfrexx.events into ProppFrexx using Settings > Events/commands.
   
 - **ProppFrexx GPIOClient** - Maps Airlite Events like fader/switch state changes to ProppFrexx control comands.
-  - Store Default.drl in %APPDATA%\Radio42\ProppFrexx GPIOClient\4.0 then activate using ProppFrexx GPIOClient.
+  - Store proppfrexx.gpio.drl in %APPDATA%\Radio42\ProppFrexx GPIOClient\4.0 then activate using ProppFrexx GPIOClient.
   
 - **ProppFrexx workspace** - Defines the layout and settings for the ProppFrexx Graphical User Interface (GUI).
-  - Todo: ProppFrexx Workspace/view.
-
-.
+  - Import proppfrexx.workspace.xml via ProppFrexx > View > Workspace > Load Workspace. 
